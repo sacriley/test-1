@@ -48,8 +48,8 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'fs_eastmansion';
+$db['default']['hostname'] = '146.148.55.60';
+$db['default']['username'] = 'zack';
 $db['default']['password'] = '1234qwera';
 $db['default']['database'] = 'fs_eastmansion';
 $db['default']['dbdriver'] = 'mysql';
