@@ -1,0 +1,116 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,dl, dt, dd, ul, ol, li,pre, code, form, div, fieldset, legend, button, input, textarea, th, td {margin: 0;padding: 0;font-family: "Myriad Pro", Arial, 微軟正黑體,Helverica; }
+fieldset, img {border: 0;}/* remember to define focus styles! */
+a:focus,
+:focus {outline: 0;}
+a{font-family: "Myriad Pro", Arial,微軟正黑體, Helverica;}
+address, caption, cite, code, dfn,em, strong, th, var, optgroup {font-family: "Myriad Pro", Arial, 微軟正黑體,Helverica; font-weight: normal;}
+h1 ,h2 ,h3 ,h4, h5, h6 {font-size: 100%;font-weight: normal;}
+abbr, acronym {border: 0;font-variant: normal;}
+input, button, textarea,select, optgroup, option {font-family: "Myriad Pro", Arial,微軟正黑體, Helverica;font-size: inherit;font-style: inherit;font-weight: inherit;}
+code, kbd, samp, tt {font-size: 100%;}
+/*@purpose To enable resizing for IE */
+input, button, textarea, select {font-size: 100%; border:1px solid #CCC;}
+textarea { resize : none; }
+body {line-height: 1.2;}
+ol, ul {list-style: none;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse: collapse;border-spacing: 0;}
+caption, th {text-align: left;}
+sup, sub {font-size: 100%;vertical-align: baseline;}
+/* remember to highlight anchors and inserts somehow! */
+ins {text-decoration: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+/* Define */h1 {font-size: 15px;}
+h2, h3, h4 { font-size: 15px; }
+a {text-decoration: none;}
+blockquote {margin: 5px 20px;padding: 5px;}
+blockquote p, code {padding: 10px 20px;display: block;}
+code {display: block;margin: 5px 20px;}
+strong, em, caption, th {font-style: normal;font-weight: bold;}
+cite {font-style: italic;font-weight: normal;}
+sub, sup {font-size: 15px;}
+sub {vertical-align: sub;}
+sup {vertical-align: super;}
+small {font-size: 15px;}
+:focus {outline: 1px #666 dotted;}
+input:focus, div:focus, textarea:focus {outline: 0;}
+input {margin: 3px;vertical-align: middle; border:1px solid #CCC;}
+input[type="submit"]{ cursor:pointer; }
+a,a:visited {color: blue;}
+
+/*********************multi***********************/
+
+.multi { display:block; width:100%; margin:15px auto; text-align:center; }
+.multi a, .multi strong { margin-right:10px; }
+.multi em { border:1px solid #CCC; color:#AAA; background:#EEE; margin-right:10px; }
+
+/*********************global***********************/
+
+.a,.a:visited {color: blue; cursor:pointer;}
+body { overflow-y:scroll; background:#CCC; }
+[data-hrefto] { cursor:pointer; }
+
+.topHeader { display:block; position:fixed; left:0; top:0; width:100%; height:70px; overflow:hidden; z-index:211; }
+.topHeader .topHeaderContent { width:900px; height:70px; margin:0 auto; }
+.topHeader .topHeaderContent .logo { float:left; height:29px; margin-top:22px; }
+.topHeader .topHeaderContent .logo img { height:29px; }
+.topHeader .topHeaderContent .nav { float:right; height:70px; width:500px; }
+.topHeader .topHeaderContent .nav .navLi { position:relative; float:left; height:20px; width:100px; padding:35px 0 15px; overflow:hidden; }
+
+.topHeader .topHeaderContent .nav .navLi .text{ display:block; position:absolute; text-align:center; height:15px; line-height:15px; font-size:12px; width:99px; border-right:1px solid #999; overflow:hidden; }
+.topHeader .topHeaderContent .nav .navLi .text span { display:block; color:#999; -webkit-transition:all 1s; transition:all 1s; -webkit-transform:translate(0,0);transform:translate(0,0); }
+.topHeader .topHeaderContent .nav .navLi:hover .text span,
+.topHeader .topHeaderContent .nav .navLi.hover .text span,
+.topHeader .topHeaderContent .nav:hover .navLi.hover:hover .text span { -webkit-transform:translate(0,50px);transform:translate(0,50px); }
+.topHeader .topHeaderContent .nav:hover .navLi.hover .text span { -webkit-transform:translate(0,0);transform:translate(0,0); }
+
+.topHeader .topHeaderContent .nav .navLi .text2{ display:block; position:absolute; text-align:center; height:15px; line-height:15px; font-size:12px; width:99px; border-right:1px solid #999; overflow:hidden; }
+.topHeader .topHeaderContent .nav .navLi .text2 span { color:#FFF; -webkit-transition:all 1s;transition:all 1s; opacity:0; }
+.topHeader .topHeaderContent .nav .navLi:hover .text2 span,
+.topHeader .topHeaderContent .nav .navLi.hover .text2 span,
+.topHeader .topHeaderContent .nav:hover .navLi.hover:hover .text2 span { opacity:1; }
+.topHeader .topHeaderContent .nav:hover .navLi.hover .text2 span { opacity:0; }
+
+.topHeaderBg { display:block; position:fixed; left:0; top:0; width:100%; height:70px; overflow:hidden; z-index:210; background:#000; opacity:0.8; }
+
+.footer { position:fixed; left:0; bottom:0; font-size:14px; color:#777; background:#333; width:calc(100% - 200px); height:15px; line-height:15px; padding:10px 100px; font-family: "Myriad Pro", Arial, 微軟正黑體, Helverica; z-index:10; opacity:0.95; }
+.footer .floatright { float:right; }
+
+.bodyBg { display:block; position:fixed; left:0; top:0; width:100%; -webkit-animation:p201402201150 5s, p201402200858 25s infinite; animation:p201402201150 5s, p201402200858 25s infinite; opacity:0.6; }
+@-webkit-keyframes p201402201150{
+	0%{ opacity:0; }
+	40%{ opacity:1; }
+	100%{ opacity:0.6; }
+}
+@keyframes p201402201150{
+	0%{ opacity:0; }
+	40%{ opacity:1; }
+	100%{ opacity:0.6; }
+}
+@-webkit-keyframes p201402200858{
+	0%{ -webkit-transform: scale(1); }
+	50%{ -webkit-transform: scale(1.1); }
+	100%{ -webkit-transform: scale(1); }
+}
+@keyframes p201402200858{
+	0%{ transform: scale(1); }
+	50%{ transform: scale(1.1); }
+	100%{ transform: scale(1); }
+}
+.bodyBg img{ width:100%; }
+
+.page.opacity0 { -webkit-animation:fadeOut 1s;animation:fadeOut 1s; }
+
+/***************other page****************/
+
+.otherPageContent { position:absolute; width:700px; padding:50px 50px 80px; background:#f9f9f9; z-index:4; left:50%; top:0; margin-left:-400px; line-height:30px; margin-top:120px; color:#000; font-size:14px; overflow:hidden; }
+.otherPageContent h2 { font-size:20px; font-weight:500; margin-bottom:15px; }
+.otherPageContent input[type='text'],.otherPageContent input[type='password'] { padding:5px; }
+.otherPageContent input[type='submit']{ width:160px; height:30px; margin-left:45px; }
+
+/***********showmessage************/
+
+.showmessage { position:absolute; width:700px; padding:50px; background:#f9f9f9; z-index:4; left:50%; top:0; margin-left:-400px; line-height:30px; margin-top:120px; color:#000; font-size:14px; overflow:hidden; }
+.showmessage h2 { font-size:20px; font-weight:500; margin-bottom:25px; }
+.showmessage p { font-size:14px; font-weight:500; margin-bottom:5px; }

@@ -1,0 +1,8 @@
+.productListBg { position:absolute; width:calc(50% + 300px); background:#FFF; }
+.productList { width:700px; float:right; padding:130px 0; overflow:hidden; }
+.productList .productDiv { width:300px; height:200px; float:left; margin:0 30px 30px 0; overflow:hidden; }
+.productList .productDiv img { width:100%; }
+
+.productRightFixed { position:fixed; width:120px; left:50%; top:0; margin:130px 0 0 340px; font-size:12px; }
+.productRightFixed h2 { font-size:20px; margin-bottom:0; }
+.productRightFixed h3 { font-size:12px; margin-bottom:100px; }

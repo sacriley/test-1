@@ -1,0 +1,159 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2014-12-14 16:39:43 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 連線已被您主機上的軟體中止。
+ D:\app\apache\htdocs\eastmansion\fanswoo-sdk\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2014-12-14 18:09:10 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 連線已被您主機上的軟體中止。
+ D:\app\apache\htdocs\eastmansion\fanswoo-sdk\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined index: content_html D:\app\apache\htdocs\eastmansion\app\models\showroom_list_model.php 30
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined index: updatetime D:\app\apache\htdocs\eastmansion\app\models\showroom_list_model.php 34
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined variable: content D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 77
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined variable: uid D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 84
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined variable: content D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 85
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined property: Showroom::$pic D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:09:11 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 18:09:59 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 連線已被您主機上的軟體中止。
+ D:\app\apache\htdocs\eastmansion\fanswoo-sdk\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined index: updatetime D:\app\apache\htdocs\eastmansion\app\models\showroom_list_model.php 33
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined variable: content D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 77
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined variable: uid D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 84
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined variable: content D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 85
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined property: Showroom::$pic D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:00 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 18:10:09 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 連線已被您主機上的軟體中止。
+ D:\app\apache\htdocs\eastmansion\fanswoo-sdk\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined variable: content D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 77
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined variable: uid D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 84
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined variable: content D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 85
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined property: Showroom::$pic D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:10:10 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 18:11:02 --> Severity: Notice  --> Undefined variable: uid D:\app\apache\htdocs\eastmansion\app\models\showroom_model.php 85
+ERROR - 2014-12-14 18:11:02 --> Severity: Notice  --> Undefined property: Showroom::$pic D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:11:02 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:11:02 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:11:02 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:11:02 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:11:02 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:11:02 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 18:12:18 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 連線已被您主機上的軟體中止。
+ D:\app\apache\htdocs\eastmansion\fanswoo-sdk\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2014-12-14 18:12:19 --> Severity: Notice  --> Undefined property: Showroom::$pic D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:12:19 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:12:19 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:12:19 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:12:19 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:12:19 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:12:19 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 18:56:15 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:56:15 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:56:15 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:56:15 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:56:15 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 18:56:15 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 21:51:02 --> Severity: Warning  --> require_once(D:\app\apache\htdocs\eastmansion\app\libraries/FirePHP.class.php): failed to open stream: No such file or directory D:\app\apache\htdocs\eastmansion\app\libraries\Fb.php 45
+ERROR - 2014-12-14 21:51:17 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:51:17 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:51:17 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:51:17 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:51:17 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:51:17 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 21:52:07 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:07 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:07 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:07 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:07 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:07 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 21:52:42 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:42 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:42 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:42 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:42 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:52:42 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 21:53:33 --> Unable to load the requested class: firephp
+ERROR - 2014-12-14 21:53:35 --> Unable to load the requested class: firephp
+ERROR - 2014-12-14 21:53:58 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:53:58 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:53:58 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:53:58 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:53:58 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:53:58 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 21:54:01 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:54:01 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:54:01 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:54:01 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:54:01 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 21:54:01 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 22:40:52 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:40:52 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:40:52 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:40:52 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:40:52 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:40:52 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 22:41:14 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:41:14 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:41:14 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:41:14 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:41:14 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:41:14 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 22:59:05 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:59:05 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:59:05 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:59:05 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:59:05 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 22:59:05 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 23:18:18 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:18:18 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:18:18 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:18:18 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:18:18 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:18:18 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 23:39:32 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:32 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:32 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:32 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:32 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:32 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 23:39:42 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:42 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:42 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:42 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:42 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:39:42 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 23:42:49 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:42:49 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:42:49 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:42:49 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:42:49 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:42:49 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 23:44:51 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:44:51 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:44:51 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:44:51 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:44:51 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:44:51 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 23:53:14 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:53:14 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:53:14 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:53:14 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:53:14 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:53:14 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33
+ERROR - 2014-12-14 23:54:46 --> Severity: Notice  --> Undefined property: Showroom::$classid D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:54:46 --> Severity: Notice  --> Undefined property: Showroom::$classid_array D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:54:46 --> Severity: Notice  --> Undefined property: Showroom::$viewnum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:54:46 --> Severity: Notice  --> Undefined property: Showroom::$replynum D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:54:46 --> Severity: Notice  --> Undefined property: Showroom::$updatetime D:\app\apache\htdocs\eastmansion\fanswoo-sdk\core\Model.php 51
+ERROR - 2014-12-14 23:54:46 --> Severity: Notice  --> Undefined index: noteid D:\app\apache\htdocs\eastmansion\app\views\admin\showroom_showroomlist.php 33

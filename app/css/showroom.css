@@ -1,0 +1,22 @@
+.showroomListBg { position:fixed; width:100%; height:100%; background:#FFF; overflow:hidden; -webkit-animation:fadeIn 2s;animation:fadeIn 2s; }
+.showroomLi img { width:100%; }
+.showroomLi{ -webkit-animation:fadeIn 1s;animation:fadeIn 1s; }
+.showroomLi.opacity0 { opacity:0; -webkit-animation:fadeOut 1s;animation:fadeOut 1s; }
+
+.showroomListBg .showroomText { display:block; position:absolute; top:0; right:0; top:120px; padding:30px; color:#FFF; margin-right:100px; width:200px; overflow:hidden; background:#555; z-index:1; opacity:0; -webkit-transition: all 1s;transition: all 1s; -webkit-transform:translate(0, -100px);transform:translate(0, -100px); line-height:20px; font-size:12px; }
+.showroomListBg:hover .showroomText { opacity:0.8; -webkit-transform:translate(0, 0);transform:translate(0, 0); }
+.showroomListBg .showroomText h2 { font-size:15px; margin-bottom:10px; line-height:20px; }
+
+.showroomListBg .showroomNav { display:block; width:calc(100% - 210px); height:0; right:0; position:absolute; bottom:100px; -webkit-transition:all 1s;transition:all 1s; overflow:hidden; opacity:0.5; }
+.showroomListBg:hover .showroomNav { height:62px; opacity:1; }
+.showroomListBg .showroomNav .showroomNavList{ height:62px; position:absolute; top:50%; margin-top:-31px; }
+.showroomListBg .showroomNav .showroomNavList .showroomNavLi { border:1px solid #FFF; float:left; height:60px; width:60px; cursor:pointer; background:#FFF; -webkit-transition:all 0.5s;transition:all 0.5s; }
+.showroomListBg .showroomNav .showroomNavList .showroomNavLi img{ width:60px; height:60px; opacity:1; -webkit-transition:opacity 0.5s;transition:opacity 0.5s;  }
+.showroomListBg .showroomNav .showroomNavList .showroomNavLi:hover img{ opacity:0.3; }
+
+.showroomLeftWhite { position:fixed; top:0; left:0; width:150px; height:100%; padding:30px 30px 0 30px; margin-top:70px; background:#FFF; opacity:0.95; z-index:2; }
+.showroomLeftWhite h2 { font-size:20px; margin-bottom:0; text-align:right; }
+.showroomLeftWhite h3 { font-size:15px; margin-bottom:150px; text-align:right; }
+.showroomLeftWhite p { font-size:12px; text-align:right; }
+.showroomLeftWhite select { font-size:12px; width:80px; }
+.showroomLeftWhite select:focus { outline:none; }

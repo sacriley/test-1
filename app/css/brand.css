@@ -1,0 +1,71 @@
+.brandListBg { width:100%; overflow:hidden; background:url(../img/bg3.jpg) no-repeat 0 0; background-size:cover; -webkit-animation:fadeInDown 3s;animation:fadeInDown 3s; }
+.brandListBg2 { width:100%; padding-bottom:150px; overflow:hidden; background:url(../img/bg3.jpg) no-repeat 0 -424px; background-size:cover; -webkit-animation:fadeInDown 3s;animation:fadeInDown 3s; }
+.brandList { margin:120px auto 0; width:760px; min-height:302px; overflow:hidden; }
+.brandList2 { margin:0 auto 20px; width:760px; min-height:302px; overflow:hidden; }
+.brandDiv { position:relative; width:150px; height:150px; background:#333; margin:0 2px 2px 0; float:left; overflow:hidden; cursor:pointer; opacity:1; }
+.brandDiv:nth-child(1) { -webkit-animation:p201404200216 3s; animation:p201404200216 3s; }
+.brandDiv:nth-child(2) { -webkit-animation:p201404200216 3.1s;animation:p201404200216 3.1s; }
+.brandDiv:nth-child(3) { -webkit-animation:p201404200216 3.2s;animation:p201404200216 3.2s; }
+.brandDiv:nth-child(4) { -webkit-animation:p201404200216 3.3s;animation:p201404200216 3.3s; }
+.brandDiv:nth-child(5) { -webkit-animation:p201404200216 3.4s;animation:p201404200216 3.4s; }
+.brandDiv:nth-child(6) { -webkit-animation:p201404200216 3.5s;animation:p201404200216 3.5s;  }
+.brandDiv:nth-child(7) { -webkit-animation:p201404200216 3.6s;animation:p201404200216 3.6s; }
+.brandDiv:nth-child(8) { -webkit-animation:p201404200216 3.7s;animation:p201404200216 3.7s; }
+.brandDiv:nth-child(9) { -webkit-animation:p201404200216 3.8s; animation:p201404200216 3.8s;}
+.brandDiv:nth-child(10) { -webkit-animation:p201404200216 3.9s;animation:p201404200216 3.9s; }
+@-webkit-keyframes p201404200216 {
+	0%{ opacity:0; -webkit-transform: translate(0, 30px); }
+	80%{ opacity:0; -webkit-transform: translate(0, 30px); }
+	100%{ opacity:1; -webkit-transform: translate(0, 0); }
+}
+@keyframes p201404200216 {
+	0%{ opacity:0;transform: translate(0, 30px); }
+	80%{ opacity:0;transform: translate(0, 30px); }
+	100%{ opacity:1;transform: translate(0, 0); }
+}
+.brandDiv img { width:150px; height:150px; position:absolute; width:100%; -webkit-transition:opacity 0.8s;transition:opacity 0.8s; }
+.brandDiv:hover img{ opacity:0; }
+.brandDiv .text { position:absolute; width:100%; color:#FFF; opacity:0; -webkit-transition:opacity 0.8s;transition:opacity 0.8s;text-align:center; line-height:150px; }
+.brandDiv:hover .text{ opacity:1; }
+
+.brandView { width:100%; height:0; background:url(../img/bg5.jpg); background-size:cover; overflow:hidden; -webkit-transition:height 1s;transition:height 1s;  }
+.brandView.hover { height:430px; padding-bottom:2px; }
+.brandView .brandViewContent { position:relative; }
+
+.brandView .brandViewContent .brandText { width:610px; left:50%; padding:50px; margin-left:-355px; color:#FFF; }
+.brandView .brandViewContent .brandText { position:absolute; opacity:1; -webkit-transform: translate(0, 0); -webkit-transition:all 1s;transition:all 1s;  }
+.brandView .brandViewContent .brandText.opacity0 { opacity:0; -webkit-transform: translate(-100%, 0);transform: translate(-100%, 0); }
+.brandView .brandViewContent .brandText .pic { float:left; height:200px; width:200px; }
+.brandView .brandViewContent .brandText .pic img { float:left; height:200px; width:200px; }
+.brandView .brandViewContent .brandText .text { float:right; width:380px; overflow:hidden; }
+.brandView .brandViewContent .brandText .text h2 { display:block; font-size:20px; line-height:30px; height:30px; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #FFF; }
+.brandView .brandViewContent .brandText .text p { font-size:15px; margin-bottom:10px; }
+.brandView .brandViewContent .brandText .button { cursor:pointer; float:left; width:100px; text-align:center; margin:10px 10px 0 0; padding:10px; background:#FFF; color:#000; border-radius:25px; -webkit-transition:background 0.5s; transition:background 0.5s; }
+.brandView .brandViewContent .brandText .button:hover { background:#999; }
+
+.brandView .brandViewContent .brandPicture { position:absolute; display:block; width:610px; left:50%; padding:50px; margin-left:-355px; opacity:0; -webkit-transform: translate(100%, 0);transform: translate(100%, 0); -webkit-transition:all 1s;transition:all 1s; }
+.brandView .brandViewContent .brandPicture.opacity1 { opacity:1; -webkit-transform: translate(0, 0);transform: translate(0, 0); }
+.brandView .brandViewContent .brandPicture h2 { color:#FFF; }
+.brandView .brandViewContent .brandPicture .pictureBar { position:relative; margin-bottom:5px; width:600px; height:300px; border:5px solid #FFF; }
+.brandView .brandViewContent .brandPicture .pictureBar .pic { position:absolute; width:600px; height:300px; overflow:hidden; z-index:1; opacity:0; }
+.brandView .brandViewContent .brandPicture .pictureBar .pic[fanScript-slideshowPath=center] { -webkit-animation:fadeIn 1s; animation:fadeIn 1s;opacity:1; }
+.brandView .brandViewContent .brandPicture .pictureBar .pic img { float:left; width:100%; }
+.brandView .brandViewContent .brandPicture .pictureBar .nextButton { opacity:0.3; cursor:pointer; -webkit-transition:opacity 0.5s;transition:opacity 0.5s; position:absolute; left:0; width:300px; height:300px; z-index:200; background:url(../img/trunLeft.png) left 50% no-repeat; }
+.brandView .brandViewContent .brandPicture .pictureBar .backButton { opacity:0.3; cursor:pointer; -webkit-transition:opacity 0.5s;transition:opacity 0.5s; position:absolute; right:0; width:300px; height:300px; z-index:200; background:url(../img/trunRight.png) right 50% no-repeat; }
+.brandView .brandViewContent .brandPicture .pictureBar .nextButton:hover ,
+.brandView .brandViewContent .brandPicture .pictureBar .backButton:hover { opacity:1; }
+.brandView .brandViewContent .brandPicture .returnButton { color:#000; cursor:pointer; text-align:center; float:right; width:100px; height:30px; line-height:30px; overflow:hidden; background:#FFF; border-bottom-left-radius:5px; border-bottom-right-radius:5px; -webkit-transition:background 0.5s;transition:background 0.5s; }
+.brandView .brandViewContent .brandPicture .returnButton:hover { background:#999; }
+
+.brandNav { position:fixed; left:50%; bottom:0; margin-bottom:150px; margin-left:-510px; background:#555; width:100px; height:20px; padding:5px 10px; font-size:12px; z-index:3; border-top-left-radius:15px; border-bottom-left-radius:15px; -webkit-animation:p201404200420 5s;animation:p201404200420 5s;  }
+@-webkit-keyframes p201404200420{
+	0%{ opacity:0; }
+	80%{ opacity:0; }
+	100%{ opacity:1; }
+}
+@keyframes p201404200420{
+	0%{ opacity:0; }
+	80%{ opacity:0; }
+	100%{ opacity:1; }
+}
+.brandNav select { height:20px; width:80px; float:right; }

@@ -1,0 +1,591 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+code,
+form,
+div,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體, Arial;
+}
+fieldset,
+img {
+    border: 0;
+}
+/* remember to define focus styles! */
+
+:focus {
+    outline: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+optgroup {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 微軟正黑體, Arial;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+    font-family: 微軟正黑體, Arial;
+}
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal;
+}
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    font-family: 微軟正黑體, Arial;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+code,
+kbd,
+samp,
+tt {
+    font-size: 100%;
+}
+/*@purpose To enable resizing for IE */
+
+input,
+button,
+textarea,
+select {
+    font-size: 100%;
+}
+body {
+    line-height: 1.2;
+}
+ol,
+ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption,
+th {
+    text-align: left;
+}
+sup,
+sub {
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* remember to highlight anchors and inserts somehow! */
+
+ins {
+    text-decoration: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+/* Define */
+
+h1 {
+    font-size: 2.8em;
+}
+h2,
+h3,
+h4 {
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+}
+blockquote {
+    margin: 5px 20px;
+    padding: 5px;
+}
+blockquote p,
+code {
+    padding: 10px 20px;
+    display: block;
+}
+code {
+    display: block;
+    margin: 5px 20px;
+}
+strong,
+em,
+caption,
+th {
+    font-style: normal;
+    font-weight: bold;
+}
+cite {
+    font-style: italic;
+    font-weight: normal;
+}
+sub,
+sup {
+    font-size: .8em;
+}
+sub {
+    vertical-align: sub;
+}
+sup {
+    vertical-align: super;
+}
+small {
+    font-size: 1em;
+}
+:focus {
+    outline: 0;
+}
+input:focus,
+div:focus,
+textarea:focus {
+    outline: 0;
+}
+input {
+    vertical-align: middle;
+}
+/* Layout */
+
+a {
+    color: #027de5;
+}
+.gray {
+    color: #999;
+}
+textarea {
+    line-height: 18px;
+    font-size: 12px;
+    padding: 5px;
+}
+input[type=text],
+input[type=number],
+input[type=password] {
+    height: 20px;
+    line-height: 18px;
+    font-size: 12px;
+    padding: 5px;
+}
+[data-hrefto] {
+    cursor: pointer;
+}
+.ahref {
+    color: #027de5;
+    cursor: pointer;
+}
+body {
+    font-size: 12px;
+    /* Resets 1em to 10px */
+    color: #000;
+    height: 100%;
+    background: #fff;
+    line-height: 1.4;
+    overflow-y: scroll;
+}
+.body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #EEE;
+}
+.header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99;
+    line-height: 50px;
+}
+.header .logo {
+    display: block;
+    width: 120px;
+    height: 50px;
+    margin-left: 25px;
+    background: url(../img/fanswoo-logo.svg) no-repeat center center;
+    float: left;
+    font-size: 15px;
+    color: #FFF;
+}
+html.agent-ie8 .header .logo {
+    background: url(../img/fanswoo-logo.png) no-repeat center center;
+}
+.header .logStatus {
+    float: right;
+    color: #FFF;
+    margin-right: 30px;
+}
+.header .logStatus .username {
+    margin: 0 10px 0 0;
+}
+.header .logStatus a {
+    color: #FFF;
+}
+.sidebar {
+    float: left;
+    background: rgba(100, 100, 100, 1);
+    width: 180px;
+    height: 100%;
+    font-size: 15px;
+    padding: 70px 0 300px 0;
+    padding-bottom: 10000px;
+    margin-bottom: -10000px;
+}
+.sidebar .sidebox {
+    margin-bottom: 10px;
+}
+.sidebar .sidebox.hidden{
+    display: none;
+}
+.sidebar .sidebox h2 {
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    color: #AAA;
+    background: rgba(50, 50, 50, 1);
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-transition: color 0.5s;
+}
+.sidebar .sidebox h2:hover {
+    color: #FFF;
+}
+.sidebar .sidebox {
+    height: 50px;
+    max-height: 50px;
+    min-height: 50px;
+    overflow: hidden;
+    -webkit-transition: min-height 0.5s, max-height 1.2s;
+}
+.sidebar .sidebox.hover {
+    height: auto;
+    max-height: 1000px;
+    min-height: 200px;
+}
+.sidebar .sidebox .acHref .acHrefBig {
+    font-size: 15px;
+    height: 40px;
+    line-height: 42px;
+    padding-left: 20px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 30px;
+    -webkit-transition: all 0.5s;
+    background: rgba(100, 100, 100, 1);
+    color: #AAA;
+}
+.sidebar .sidebox .acHref:hover .acHrefBig {
+    color: #FFF;
+}
+.sidebar .sidebox .acHref.hover:hover .acHrefBig,
+.sidebar .sidebox .acHref.hover .acHrefBig {
+    background: #027de5;
+    color: #FFF;
+}
+.sidebar .sidebox .acHref .acHrefSmallBar {
+    padding: 0 0 0 30px;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+}
+.sidebar .sidebox .acHref.hover .acHrefSmallBar {
+    padding: 10px 0 10px 30px;
+    height: auto;
+    background: rgba(80, 80, 80, 1);
+}
+.sidebar .sidebox .acHref .acHrefSmallBar .acHrefSmall,
+.sidebar .sidebox .acHref.hover .acHrefSmallBar .acHrefSmall {
+    display: block;
+    position: relative;
+    color: #AAA;
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 13px;
+    -webkit-transition: color 0.5s;
+}
+.sidebar .sidebox .acHref.hover .acHrefSmallBar .acHrefSmall:hover,
+.sidebar .sidebox .acHref.hover .acHrefSmallBar .acHrefSmall.hover {
+    color: #FFF;
+}
+.sidebar .sidebox .acHref.hover .acHrefSmallBar .acHrefSmall.hover::after {
+    right: 0;
+    border: 8px solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #EEE;
+    top: 50%;
+    margin-top: -8px;
+}
+.content {
+    float: left;
+    width: calc(100% - 260px);
+    min-height: 600px;
+    padding: 80px 20px;
+}
+.content h2 {
+    margin-bottom: 20px;
+}
+.content .contentBox.allWidth {
+    width: 100%;
+}
+.content .contentBox {
+    padding: 20px;
+    background: #FFF;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.content .contentBox h3 {
+    display: block;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.content .contentBox h4 {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.content .contentBox .spanLine {
+    padding: 5px 10px;
+    border-bottom: 1px solid #EEE;
+    min-height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    -webkit-transition: background 0.5s;
+}
+.content .contentBox .spanLine.tableTitle {
+    background: #EEE;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    min-height: 20px;
+    line-height: 20px;
+}
+.content .contentBox .spanLine:hover {
+    background: #EEE;
+}
+.content .contentBox .spanLine.noneBg {
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+}
+.content .contentBox .spanLine.noneBg:hover {
+    background: none;
+}
+.content .contentBox .spanLine .spanStage {
+    overflow: hidden;
+}
+.content .contentBox .spanLine .spanLineLeft {
+    float: left;
+    min-height: 20px;
+    width: 150px;
+}
+.content .contentBox .spanLine .spanLineLeft.hoverHidden,
+.content .contentBox .spanLine .spanLineLeft.hoverHidden a {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.content .contentBox .spanLine:hover .spanLineLeft.hoverHidden,
+.content .contentBox .spanLine:hover .spanLineLeft.hoverHidden a {
+    opacity: 1;
+}
+.content .contentBox .spanLine .spanLineLeft.aligncenter {
+    text-align: center;
+}
+.content .contentBox .spanLine .spanLineLeft.width300,
+.content .contentBox .spanLine .spanLineRight.width300 {
+    width: 300px;
+}
+.content .contentBox .spanLine .spanLineLeft.width500,
+.content .contentBox .spanLine .spanLineRight.width500 {
+    width: 500px;
+}
+.content .contentBox .spanLine .spanLineLeft.width100,
+.content .contentBox .spanLine .spanLineRight.width100 {
+    width: 100px;
+}
+.content .contentBox .spanLine .spanLineLeft.text {
+    padding-left: 5px;
+    width: 145px;
+}
+.content .contentBox .spanLine .spanLineLeft.text.width300,
+.content .contentBox .spanLine .spanLineRight.text.width300 {
+    width: 295px;
+}
+.content .contentBox .spanLine .spanLineLeft.text.width500,
+.content .contentBox .spanLine .spanLineRight.text.width500 {
+    width: 495px;
+}
+.content .contentBox .spanLine .spanLineLeft.text.width100,
+.content .contentBox .spanLine .spanLineRight.text.width100 {
+    width: 95px;
+}
+.content .contentBox .spanLine .spanLineRight {
+    float: right;
+    width: calc(100% - 150px);
+    min-height: 40px;
+}
+.content .contentBox .spanLine .spanLineRight p {
+    margin: 5px 0;
+    line-height: 20px;
+}
+.content .contentBox .spanLine .spanLineRight textarea {
+    width: 400px;
+    height: 200px;
+    margin-top: 4px;
+}
+.content .contentBox .spanLine.spanSubmit {
+    padding-top: 20px;
+    border: none;
+}
+.content .contentBox .spanLine.spanSubmit:hover {
+    background: none;
+}
+.content .contentBox .spanLine .button {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding: 5px;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #FFF;
+    background: #555;
+}
+.content .contentBox .spanLine select {
+    padding: 5px;
+    min-width: 150px;
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    transition: border 0.5s;
+}
+.content .contentBox .spanLine select:hover {
+    border: 1px solid #027de5;
+}
+.content .contentBox .spanLine input.text {
+    width: calc(100% - 20px);
+    padding: 5px;
+    height: 20px;
+    font-size: 12px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    transition: border 0.5s;
+}
+.content .contentBox .spanLine input.text:hover {
+    border: 1px solid #027de5;
+}
+.content .contentBox .spanLine input.text.floatright {
+    margin-top: 4px;
+}
+.content .contentBox .spanLine input.submit {
+    cursor: pointer;
+    float: left;
+    padding: 7px;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    color: #FFF;
+    background: #027de5;
+    margin-right: 10px;
+}
+.content .contentBox .spanLine span.submit {
+    display: block;
+    float: left;
+    cursor: pointer;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    color: #FFF;
+    background: #027de5;
+    margin-right: 10px;
+}
+.content .contentBox .spanLine span.submit.gray{
+    border: 1px solid #AAA;
+    color: #555;
+    background: #CCC;
+}
+
+.pageLink { margin: 20px 10px; }
+.pageLink a, .pageLink strong { display: block; float: left; width: 20px; height: 20px; margin-right: 10px; background: #EEE; text-align: center; padding: 5px; line-height: 20px; color: #555; -webkit-transition: all 0.5s; }
+.pageLink a:hover,
+.pageLink strong:hover,
+.pageLink strong { background: #555; color: #FFF; }
+
+.footer {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFF;
+}
+.footer a {
+    color: #FFF;
+}
