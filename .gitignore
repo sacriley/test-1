@@ -1,4 +1,6 @@
-app/logs/*
-app/logs/
-app/config/database.php
-app/logs/log-2015-01-20.php
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+*/cache/!.htaccess
