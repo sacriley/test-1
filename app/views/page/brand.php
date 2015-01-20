@@ -1,4 +1,5 @@
-<?=$temp['header_up']?>test
+<?=$temp['header_up']?>
+
 <script>
 $(function(){
 	$(document).on('click', '.brandListBg, .brandListBg2', function(){
