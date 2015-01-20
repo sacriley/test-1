@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '/test/';
+$config['base_url']	= '/eastmansion/';
 
 /*
 |--------------------------------------------------------------------------
